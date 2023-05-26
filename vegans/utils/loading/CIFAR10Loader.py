@@ -9,7 +9,7 @@ class CIFAR10Loader(MNISTLoader):
         self.path_data = "cifar10_data.pickle"
         self.path_targets = "cifar10_targets.pickle"
         m5hashes = {
-            "data": "40e8e2ca6c43feaa1c7c78a9982b978e",
+            "data": "8a6b955e6a2726c477190aa4a19c2934",
             "targets": "9a7e604de1826613e860e0bce5a6c1d0"
         }
         metadata = DatasetMetaData(directory="CIFAR10", m5hashes=m5hashes)
