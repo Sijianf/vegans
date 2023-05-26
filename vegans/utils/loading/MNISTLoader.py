@@ -33,7 +33,7 @@ class MNISTLoader(DatasetLoader):
         with open(path, "rb") as f:
             data = pickle.load(f)
             self._check_dataset_integrity_or_raise(path=path, expected_hash=m5hash)
-            train, test = data["train"], data["train"] # it is wrong but let it be like this for this moment
+            train, test = data['data'], data['data'] # it is wrong but let it be like this for this moment
         return train, test
 
     @staticmethod
